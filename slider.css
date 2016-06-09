@@ -1,0 +1,26 @@
+﻿.slider-wrapper{
+	width:300px;
+	overflow:hidden;
+}
+.slider{
+	overflow:hidden;
+	width:2000px;
+	padding:0;
+	margin-left:-300px;
+}
+.move{
+	transition:margin-left 1s;
+}
+.item{
+	float:left;
+	display:block;
+	width:300px;
+	height:100px;
+	background:skyblue;
+}
+li:nth-child(even) {
+	background-color: #e84687;
+}
+li:nth-child(odd) {
+	background-color: #c846e8;
+}
